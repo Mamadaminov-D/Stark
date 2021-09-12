@@ -1,13 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: rgb(19, 15, 22);
+  background-color: white;
   margin: 0 auto;
   color: white;
+  font-family: 'Harmonia-sans-pro-normal';
+  text-transform: uppercase;
 }
 
 header {
   background-color: #B45247;
 }
+
 ul {
+  margin: 0 auto;
+}
+
+h2 {
   margin: 0 auto;
 }
 
@@ -24,15 +41,89 @@ ul {
 }
 
 .hero-sect {
-
   text-align: center;
-  padding-top: 140px;
+  padding-top: 50px;
   padding-bottom: 320px;
-
-  /* main-img */
-
   background-size: 100% 750px;
   background-position: 0 -100px;
   background-repeat: no-repeat;
   background-image: url("../img/hero-img.jpg");
+}
+
+.hero-txt {
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 100px;
+  padding-bottom: 10px;
+  color: #fff;
+  opacity: 0.9;
+  animation-name: hero-h2;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  overflow: hidden;
+}
+
+.hero-title {
+  font-size: 70px;
+  margin-bottom: 0 0 15px 0;
+  color: #fff;
+  animation-name: hero-h3;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  overflow: hidden;
+}
+
+.hero-href {
+  font-size: 13px;
+  display: inline-block;
+  padding: 0 35px;
+  line-height: 39px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  animation-name: hero-btn;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+  overflow: hidden;
+
+}
+
+.hero-href:hover {
+  background-color: #D88F0F;
+}
+
+.box-big {
+  margin: 0 25px;
+}
+
+.clock {
+  color: #000;
+  background-image: url('../img/clock.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.clock-span {
+  font-family: 'Harmonia-sans-pro-normal';
+  font-size: 10px;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+
+.clock-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+.clock-a {
+  font-weight: normal;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #D88F0F;
+  color: #000;
 }
