@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(19, 15, 22);
+  margin: 0 auto;
+  color: white;
+}
+
+header {
+  background-color: #B45247;
+}
+ul {
+  margin: 0 auto;
+}
+
+.header-logo {
+  margin-right: 250px;
+}
+
+.header-item {
+  margin-right: 30px;
+}
+
+.header-icon {
+  margin-left: 15px;
+}
+
+#usual {
+  background-image: url("../img/hero-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
