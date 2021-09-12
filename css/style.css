@@ -23,8 +23,16 @@ ul {
   margin-left: 15px;
 }
 
-#usual {
-  background-image: url("../img/hero-img.jpg");
-  background-size: cover;
+.hero-sect {
+
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 320px;
+
+  /* main-img */
+
+  background-size: 100% 750px;
+  background-position: 0 -100px;
   background-repeat: no-repeat;
+  background-image: url("../img/hero-img.jpg");
 }
