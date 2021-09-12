@@ -101,10 +101,10 @@ h2 {
 
 .clock {
   color: #000;
-  background-image: url('../img/clock.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
 }
+
+
 
 .clock-span {
   font-family: 'Harmonia-sans-pro-normal';
@@ -116,7 +116,7 @@ h2 {
 .clock-title {
   font-weight: 400;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 60px;
   margin-bottom: 20px;
   width: 150px;
 }
@@ -126,4 +126,22 @@ h2 {
   padding-bottom: 3px;
   border-bottom: 3px solid #D88F0F;
   color: #000;
+}
+.soat {
+  position: relative;
+}
+.clock-img {
+  position: absolute;
+  left: 0;
+  top: 172%;
+  width: 400px;
+  height: 231px;
+  z-index: 0;
+}
+
+.soat-div {
+  position: absolute;
+  left: 0;
+  top: 150%;
+  z-index: 1;
 }
